@@ -1,6 +1,6 @@
 .sectionOne {
   width: 100%;
-  height: fit-content;
+  height: 100vh;
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -8,14 +8,14 @@
 }
 
 .introContainer {
-  width: 60%;
-  height: 500px;
+  width: 50%;
   padding: 20px;
+  height: fit-content;
 }
 
 .introTitle {
   padding: 50px;
-  margin-top: 100px;
+  font-size: 5rem;
 }
 
 .introText {
@@ -25,7 +25,7 @@
 .imageContainer {
   display: flex;
   width: 40%;
-  height: 500px;
+  height: auto;
   justify-content: center;
   padding: 20px;
 }
@@ -48,13 +48,58 @@
   color: var(--white);
   font-size: 3rem;
   float: right;
+  cursor: pointer;
+}
+
+.sectionTwo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: var(--white);
+  background-color: rebeccapurple;
+  justify-content: center;
+}
+
+.sectionThree {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: var(--white);
+  background-color: red;
+  justify-content: center;
+}
+
+.sectionFour {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: var(--white);
+  background-color: yellowgreen;
+  justify-content: center;
+}
+
+.sectionFive {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: var(--white);
+  background-color: orange;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1100px) {
+  .sectionOne {
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 100px;
+  }
   .introContainer {
-    width: 50%;
+    width: auto;
   }
   .imageContainer {
-    width: 50%;
+    width: auto;
+  }
+  .imageOfMe {
+    width: 40%;
   }
 }

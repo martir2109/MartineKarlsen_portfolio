@@ -1,0 +1,14 @@
+footer {
+  height: 200px;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+footer > * {
+  margin: 0;
+}
