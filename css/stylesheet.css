@@ -10,6 +10,10 @@
   --background: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   align-items: center;
   font-family: "Roboto";
