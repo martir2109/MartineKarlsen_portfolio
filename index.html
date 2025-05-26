@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/loader.css" />
 
     <!-- Bootstrap icons libary -->
     <link
@@ -45,6 +48,7 @@
     </header>
 
     <main>
+      <div class="loader"></div>
       <div class="scrollContainer">
         <i
           class="bi bi-arrow-up-square-fill"
@@ -83,8 +87,53 @@
       </section>
 
       <section class="sectionFour" id="projects">
-        <h2>Projects</h2>
-        <p>text text texr</p>
+        <div class="description">
+          <h2 class="projectHeader">Projects</h2>
+          <p>
+            During my first year with studying Frondend developmet at Noroff, I
+            have create some projects
+          </p>
+        </div>
+        <div class="projectContainer">
+          <article>
+            <iframe
+              src="https://martir2109.github.io/RainyDays-js/"
+              title="RainyDays"
+            ></iframe>
+            <a
+              href="https://martir2109.github.io/RainyDays-js/"
+              role="button"
+              class="websiteBtn"
+              >Open RainyDays website</a
+            >
+          </article>
+
+          <article>
+            <iframe
+              src="https://martir2109.github.io/Community-Science-Museum/"
+              title="Community Science Museum"
+            ></iframe>
+            <a
+              href="https://martir2109.github.io/Community-Science-Museum/"
+              role="button"
+              class="websiteBtn"
+              >Open Community Science Museum website</a
+            >
+          </article>
+
+          <article>
+            <iframe
+              src="https://hotview-labs-martir2109.netlify.app/"
+              title="HotView Labs"
+            ></iframe>
+            <a
+              href="https://hotview-labs-martir2109.netlify.app/"
+              role="button"
+              class="websiteBtn"
+              >Open Community Science Museum website</a
+            >
+          </article>
+        </div>
       </section>
 
       <section class="sectionFive" id="contact">
@@ -104,5 +153,6 @@
     </footer>
     <script src="./js/navbar.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/loader.js"></script>
   </body>
 </html>
