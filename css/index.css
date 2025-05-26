@@ -73,15 +73,6 @@
   justify-content: center;
 }
 
-.sectionFour {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  color: var(--white);
-  background-color: yellowgreen;
-  justify-content: center;
-}
-
 .sectionFive {
   width: 100%;
   height: 100vh;
