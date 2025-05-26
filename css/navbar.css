@@ -30,6 +30,7 @@ nav {
 .topnav a:hover {
   background-color: var(--white);
   color: var(--black);
+  border-radius: 50px;
 }
 
 .topnav a.active {
