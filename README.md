@@ -1,7 +1,9 @@
 # MartineKarlsen_portfolio
 
 Hello there! 👋🏼
+
 Welcome to my repository for my Portfolio.
+
 My portfolio include three projects I have compleded during my first year studying Frontend development at Noroff School of Technology and Digital Media.
 
 My portfolio includes these sections:
