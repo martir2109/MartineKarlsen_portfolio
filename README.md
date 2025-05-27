@@ -8,15 +8,15 @@ My portfolio include three projects I have compleded during my first year studyi
 
 My portfolio includes these sections:
 
-├─ Landing page
+├── Landing page
 
-├─ About me
+├── About me
 
-├─ Skills
+├── Skills
 
-├─ Projects
+├── Projects
 
-└─ Contact me
+└── Contact me
 
 ## Live website
 
@@ -38,21 +38,33 @@ Here is a screenshot of the live website:
 ## Portfolio structure
 
 📁 css/
+
 ├── 📄 contact.css
+
 ├── 📄 footer.css
+
 ├── 📄 index.css
+
 ├── 📄 loader.css
+
 ├── 📄 navbar.css
+
 ├── 📄 projects.css
+
 └── 📄 stylesheet.css
 
 📁 js/
+
 ├── 📄 index.js
+
 ├── 📄 loader.js
+
 └── 📄 navbar.js
 
 📁 public/
+
 └── 📄 imageofme.png
 
 📄 index.html
+
 📄 readme.md
