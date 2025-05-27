@@ -38,33 +38,21 @@ Here is a screenshot of the live website:
 ## Portfolio structure
 
 📁 css/
-
 ├── 📄 contact.css
-
 ├── 📄 footer.css
-
 ├── 📄 index.css
-
 ├── 📄 loader.css
-
 ├── 📄 navbar.css
-
 ├── 📄 projects.css
-
 └── 📄 stylesheet.css
 
 📁 js/
-
 ├── 📄 index.js
-
 ├── 📄 loader.js
-
 └── 📄 navbar.js
 
 📁 public/
-
 └── 📄 imageofme.png
 
 📄 index.html
-
 📄 readme.md
