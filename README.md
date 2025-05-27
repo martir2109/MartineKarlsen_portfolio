@@ -35,35 +35,35 @@ Here is a screenshot of the live website:
 3. Vanilla JavaScript
 4. Icons from Bootstrap
 
-## Portfolio structure
+## Project structure
 
 📁 css/
 
-├── 📄 contact.css
+    ├── 📄 contact.css
 
-├── 📄 footer.css
+    ├── 📄 footer.css
 
-├── 📄 index.css
+    ├── 📄 index.css
 
-├── 📄 loader.css
+    ├── 📄 loader.css
 
-├── 📄 navbar.css
+    ├── 📄 navbar.css
 
-├── 📄 projects.css
+    ├── 📄 projects.css
 
-└── 📄 stylesheet.css
+    └── 📄 stylesheet.css
 
 📁 js/
 
-├── 📄 index.js
+    ├── 📄 index.js
 
-├── 📄 loader.js
+    ├── 📄 loader.js
 
-└── 📄 navbar.js
+    └── 📄 navbar.js
 
 📁 public/
 
-└── 📄 imageofme.png
+    └── 📄 imageofme.png
 
 📄 index.html
 
