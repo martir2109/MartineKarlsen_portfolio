@@ -9,9 +9,13 @@ My portfolio include three projects I have compleded during my first year studyi
 My portfolio includes these sections:
 
 ├── Landing page
+
 ├── About me
+
 ├── Skills
+
 ├── Projects
+
 └── Contact me
 
 ## Live website
