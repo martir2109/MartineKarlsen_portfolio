@@ -1,11 +1,12 @@
 /* Color palette */
 :root {
-  --primary: #3d365c;
-  --secondary: #7c4585;
+  --primary: #0c134f;
+  --secondary: #1d267d;
   --white: #fff;
   --black: #000;
   --grey: #a1a1a1;
-  --pink: #c95792;
+  --purple: #5c469c;
+  --light-purple: #d4adfc;
   --orangeYellow: #f8b55f;
   --background: #fff;
 }
@@ -28,9 +29,10 @@ main:not(.scrollContainer) {
 body {
   background-image: linear-gradient(
     180deg,
+    var(--secondary),
     var(--primary),
     var(--secondary),
-    var(--pink)
+    var(--orangeYellow)
   );
 }
 
@@ -65,4 +67,8 @@ h5 {
 p {
   font-size: clamp(1rem, 1.5vw, 1.4rem);
   line-height: 1.8;
+}
+
+.websiteBtn {
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
 }
