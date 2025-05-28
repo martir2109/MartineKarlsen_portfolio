@@ -20,7 +20,7 @@ My portfolio includes these sections:
 
 ## Live website
 
-You can view the live project here: martir2109.github.io/MartineKarlsen_portfolio/
+You can view the live project here: [martir2109.github.io/MartineKarlsen_portfolio/](martir2109.github.io/MartineKarlsen_portfolio/)
 
 ## Website Preview
 
