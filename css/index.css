@@ -64,15 +64,6 @@
   justify-content: center;
 }
 
-.sectionThree {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  color: var(--white);
-  background-color: red;
-  justify-content: center;
-}
-
 .sectionFive {
   width: 100%;
   min-height: 100vh;
