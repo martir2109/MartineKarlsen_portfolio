@@ -39,17 +39,19 @@ Here is a screenshot of the live website:
 
 📁 css/
 
+    ├── 📄 About.css
+
     ├── 📄 contact.css
 
     ├── 📄 footer.css
-
-    ├── 📄 index.css
 
     ├── 📄 loader.css
 
     ├── 📄 navbar.css
 
     ├── 📄 projects.css
+
+    ├── 📄 skills.css
 
     └── 📄 stylesheet.css
 
@@ -62,6 +64,31 @@ Here is a screenshot of the live website:
     └── 📄 navbar.js
 
 📁 public/
+
+    └── 📁 projects/
+
+            ├── 📄 CommunityScienceMuseum.png
+
+            ├── 📄 HotViewLabs.png
+
+            └── 📄 RainyDays.png
+
+    └── 📁 technologies/
+
+            ├── 📄 CSSLogo.png
+
+            ├── 📄 figmaLogo.png
+
+            ├── 📄 GitHubLogo.png
+
+            ├── 📄 GitLogo.png
+
+            ├── 📄 HTML5Logo.png
+
+            ├── 📄 JavaScriptLogo.png
+
+            └── 📄 vscodeLogo.png
+
 
     └── 📄 imageofme.png
 
