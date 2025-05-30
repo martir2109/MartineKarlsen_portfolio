@@ -91,8 +91,9 @@ p {
 .description {
   width: 100%;
   height: fit-content;
-  display: grid;
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   justify-content: center;
   text-align: center;
 }
@@ -139,4 +140,10 @@ section {
 
 .bi-arrow-up-square-fill:hover {
   color: var(--grey);
+}
+
+@media screen and (max-width: 800px) {
+  .projectHeader {
+    margin-top: 150px;
+  }
 }
