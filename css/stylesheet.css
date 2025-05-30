@@ -110,7 +110,6 @@ p {
 section {
   width: 100%;
   min-height: 100vh;
-  height: 100%;
   color: var(--white);
   justify-content: center;
   display: block;
@@ -132,12 +131,12 @@ section {
 }
 
 .bi-arrow-up-square-fill {
-  color: var(--white);
+  color: var(--orangeYellow);
   font-size: 3rem;
   float: right;
   cursor: pointer;
 }
 
 .bi-arrow-up-square-fill:hover {
-  color: var(--orangeYellow);
+  color: var(--grey);
 }

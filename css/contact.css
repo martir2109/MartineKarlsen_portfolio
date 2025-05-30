@@ -1,5 +1,5 @@
 .contactDetailsContainer {
-  width: 40%;
+  width: 30%;
   max-height: 500px;
   margin-top: 20px;
   border-radius: 20px;
@@ -22,7 +22,7 @@
 }
 
 .linksContainer {
-  width: 60%;
+  width: 90%;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -55,4 +55,14 @@
 .bi-linkedin,
 .bi-envelope-at-fill {
   font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+@media screen and (max-width: 950px) {
+  .contactDetailsContainer {
+    width: 60%;
+  }
+
+  .linksContainer {
+    width: 90%;
+  }
 }
