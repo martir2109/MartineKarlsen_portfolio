@@ -6,13 +6,13 @@
 
     <!-- Linking to stylesheets -->
     <link rel="stylesheet" href="./css/stylesheet.css" />
-    <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/projects.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/loader.css" />
     <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/about.css" />
 
     <!-- Bootstrap icons libary -->
     <link
@@ -32,7 +32,7 @@
     <header>
       <nav>
         <div class="topnav" id="myTopnav">
-          <a href="#" class="myName">Martine R Karlsen</a>
+          <a href="#" class="myName">Martine Karlsen</a>
           <div class="menu">
             <a href="#about">About me</a>
             <a href="#skills">Skills</a>
@@ -60,31 +60,65 @@
       </div>
       <section class="sectionOne">
         <div class="introContainer">
-          <h1 class="introTitle">Frondend Developer</h1>
-          <p class="introText">
-            Hello! My name is Martine I'm a 23-year-old, who is passionate about
-            creating accessible and intuitive user-centered interfaces and
-            designs. I am dedicated to developing solutions that prioritize an
-            exceptional user experience.
-          </p>
-        </div>
-        <div class="imageContainer">
-          <img
-            src="./public/imageofme.png"
-            alt="Image of me"
-            class="imageOfMe"
-          />
+          <h1 class="gradientText">Martine Karlsen</h1>
+          <h2>Frontend developer</h2>
         </div>
       </section>
 
-      <section class="sectionTwo" id="about">
-        <h2>About me</h2>
-        <p>text text texr</p>
-      </section>
-
-      <section class="sectionThree" id="skills">
+      <section id="about">
         <div class="description">
-          <h2 class="projectHeader">Skills</h2>
+          <h2 class="projectHeader gradientText">About me</h2>
+          <p>Get to know me a little better!</p>
+        </div>
+        <div class="aboutContainer">
+          <div class="aboutContent">
+            <p>
+              Hello! My name is Martine I'm a 23-year-old, who is passionate
+              about creating accessible and intuitive user-centered interfaces
+              and designs. I am dedicated to developing solutions that
+              prioritize an exceptional user experience.
+            </p>
+            <ul>
+              <li>
+                📚 I am currently studying Frontend-development at Noroff School
+                of Technology and Digital Media.
+              </li>
+              <li>
+                🎓 I have completed a 1 year study within UX-design at Noroff
+                School of Technology and Digital Media.
+              </li>
+              <li>
+                🎓 I have a previously completed a Bachelors degree in Applied
+                Computer Technology from OsloMet.
+              </li>
+            </ul>
+            <div class="interestContainer">
+              <h3>A little bit about my interests</h3>
+              <ul>
+                <li>
+                  🕹️ I love playing video games, especially The Last of Us 1 and
+                  2. You'll find me playing these two games multiple times a
+                  year.
+                </li>
+                <li>
+                  🏃🏼‍♀️ During the past year, I've taken up an interest in running.
+                </li>
+                <li>🧶 I love getting creative and picking up new skills.</li>
+                <li>
+                  🎸 I recently decided to learn how to play my favorite song
+                  from the game The Last of Us 2, called "Future Days" by Pearl
+                  Jam. I’m in the beginning phase, but I’m getting there slowly
+                  but surely.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="description">
+          <h2 class="projectHeader gradientText">Skills</h2>
           <p>Tools and technologies I use:</p>
         </div>
         <div class="tools">
@@ -129,9 +163,9 @@
         </div>
       </section>
 
-      <section class="sectionFour" id="projects">
+      <section id="projects">
         <div class="description">
-          <h2 class="projectHeader">Projects</h2>
+          <h2 class="projectHeader gradientText">Projects</h2>
           <p>
             During my first year with studying Frondend developmet at Noroff, I
             have create some projects
@@ -223,19 +257,22 @@
         </div>
       </section>
 
-      <section class="sectionFive" id="contact">
-        <h2>Contact me</h2>
-        <p>text text texr</p>
+      <section id="contact">
+        <div class="description">
+          <h2 class="projectHeader gradientText">Contact me</h2>
+        </div>
+        <div class="contactDetailsContainer">
+          <div class="contactContent">
+            <h3>Get in touch <i class="bi bi-chat-dots"></i></h3>
+            <button type="button" class="contactButton">
+              Contact me <i class="bi bi-arrow-up-right-square"></i>
+            </button>
+          </div>
+        </div>
       </section>
-
-      <!-- <div class="contact-me-index-cont">
-        <button type="button" class="contact-me-index">
-          Contact me <i class="bi bi-arrow-up-right-square"></i>
-        </button>
-      </div> -->
     </main>
     <footer>
-      <h4>Martine R Karlsen</h4>
+      <h4>Martine Karlsen</h4>
       <p>2025</p>
     </footer>
     <script src="./js/navbar.js"></script>

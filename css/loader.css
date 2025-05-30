@@ -1,6 +1,6 @@
 .loader {
-  border: 20px solid var(--pink);
-  border-top: 20px solid var(--grey);
+  border: 20px solid var(--white);
+  border-top: 20px solid var(--light-purple);
   border-radius: 50%;
   width: 100px;
   height: 100px;

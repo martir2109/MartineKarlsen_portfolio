@@ -1,0 +1,30 @@
+.contactDetailsContainer {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  background-color: red;
+}
+
+.contactContent {
+  width: 50%;
+  min-height: 200px;
+}
+
+.contactButton {
+  width: 50%;
+  height: 44px;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 10px;
+  border: none;
+  font-size: clamp(1rem, 1.5vw, 1.4rem);
+}
+
+.contactButton:hover {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--black);
+}

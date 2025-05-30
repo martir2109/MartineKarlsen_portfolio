@@ -1,0 +1,29 @@
+.aboutContainer {
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContent {
+  width: 100%;
+  min-height: 200px;
+}
+
+ul {
+  width: 50%;
+  height: fit-content;
+  margin-top: 20px;
+  list-style: none;
+  line-height: 30px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.interestContainer {
+  margin-top: 50px;
+}
