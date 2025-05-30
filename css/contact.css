@@ -1,11 +1,16 @@
 .contactDetailsContainer {
-  width: 100%;
-  height: auto;
+  width: 60%;
+  max-height: 500px;
   margin-top: 20px;
+  border-radius: 20px;
+  background-color: var(--primary);
   display: flex;
-  justify-content: center;
   text-align: left;
-  background-color: red;
+  border: 1px solid var(--primary);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
 }
 
 .contactContent {
@@ -16,11 +21,13 @@
 .contactButton {
   width: 50%;
   height: 44px;
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
   border-radius: 10px;
   border: none;
+  padding: 10px;
   font-size: clamp(1rem, 1.5vw, 1.4rem);
+  text-decoration: none;
 }
 
 .contactButton:hover {
