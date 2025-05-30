@@ -1,5 +1,5 @@
 .contactDetailsContainer {
-  width: 60%;
+  width: 40%;
   max-height: 500px;
   margin-top: 20px;
   border-radius: 20px;
@@ -14,21 +14,25 @@
 }
 
 .contactContent {
-  width: 50%;
+  width: 100%;
   min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .linksContainer {
-  width: 100%;
+  width: 60%;
   height: fit-content;
-  display: grid;
-  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   gap: 20px;
-  margin-top: 20px;
+  padding: 10px;
 }
 
 .contactButton {
-  max-width: 350px;
+  width: 100%;
   height: 40px;
   background-color: var(--white);
   color: var(--black);
@@ -38,7 +42,6 @@
   font-size: clamp(1rem, 1.5vw, 1.4rem);
   text-decoration: none;
   align-items: center;
-  justify-content: center;
   display: flex;
   gap: 10px;
 }
@@ -49,6 +52,7 @@
 }
 
 .bi-github,
-.bi-linkedin {
+.bi-linkedin,
+.bi-envelope-at-fill {
   font-size: clamp(1.5rem, 3vw, 2rem);
 }
