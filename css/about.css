@@ -12,18 +12,37 @@
   min-height: 200px;
 }
 
-ul {
-  width: 50%;
-  height: fit-content;
-  margin-top: 20px;
-  list-style: none;
-  line-height: 30px;
+.aboutText {
+  width: 60%;
+  height: auto;
 }
 
-li {
-  margin-top: 10px;
-}
-
-.interestContainer {
+.textContainer {
   margin-top: 50px;
+}
+
+.imageContainer {
+  width: 30%;
+  height: auto;
+}
+
+.imageOfMe {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutText,
+  .imageContainer {
+    width: 90%;
+  }
+
+  .textContainer {
+    margin-top: 20px;
+  }
 }
