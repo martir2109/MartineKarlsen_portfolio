@@ -18,24 +18,24 @@ My portfolio includes these sections:
 
 > Contact me
 
-## Live website
+## 🌐 Live website
 
 You can view the live project here: [martir2109.github.io/MartineKarlsen_portfolio/](https://martir2109.github.io/MartineKarlsen_portfolio/)
 
-## Website Preview
+## 📸 Website Preview
 
 Here is a screenshot of the live website:
 
 ![Screenshot of my Portfolio website](/public/portfolioPreview.png "Martine R Karlsen Portfolio Website")
 
-## Technologies used
+## 🛠️ Technologies used
 
 1. HTML5
 2. CSS
 3. Vanilla JavaScript
 4. Icons from Bootstrap
 
-## Project structure
+## 🗂️ Project structure
 
 📁 css/
 
