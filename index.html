@@ -39,16 +39,16 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav role="navigation" aria-label="Main navigation">
         <div class="topnav" id="myTopnav">
-          <a href="#" class="myName">Martine Karlsen</a>
+          <a href="#" class="myName" aria-label="Homepage - Martine Karlsen">Martine Karlsen</a>
           <div class="menu">
             <a href="#about">About me</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact me</a>
           </div>
-          <div class="container" onclick="toggleNavbar(); toggleIcon(this)">
+          <div class="container" onclick="toggleNavbar(); toggleIcon(this)" aria-label="Toggle menu">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -65,6 +65,7 @@
           onclick="topFunction()"
           id="scrollBtn"
           title="Go to top"
+          aria-label="Scroll to the top"
         ></i>
       </div>
       <section class="sectionOne">
@@ -83,7 +84,7 @@
             <div class="aboutText">
               <div class="textContainer"> 
             <p>
-              Hello! My name is Martine I'm a 23-year-old, who is passionate
+              Hello! My name is Martine. I'm a 23-year-old, who is passionate
               about creating accessible and intuitive user-centered interfaces
               and designs. I am dedicated to developing solutions that
               prioritize an exceptional user experience. I'm currently studying Frontend Development at Noroff School of
@@ -103,7 +104,7 @@
             </div>
           </div>
           <div class="imageContainer">
-            <img src="./public/imageofme.png" alt="imageOfMe" class="imageOfMe">
+            <img src="./public/imageofme.png" alt="Portrait of Martine Karlsen" class="imageOfMe">
           </div>
       </section>
 
@@ -158,8 +159,8 @@
         <div class="description fadeIn">
           <h2 class="projectHeader gradientText">Projects</h2>
           <p>
-            During my first year with studying Frondend developmet at Noroff, I
-            have create some projects
+            During my first year studying Frontend Development at Noroff, I created several projects.
+
           </p>
         </div>
         <div class="projectContainer fadeIn">
@@ -169,11 +170,12 @@
               role="button"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Visit the Community Science Museum project website"
             >
               <div class="projectImgContainer">
                 <img
                   src="public/projects/CommunityScienceMuseum.png"
-                  alt="Screenshot of my Semester assignment about Community Science Museum"
+                  alt="Community Science Museum website homepage screenshot"
                   class="projectScreenshot"
                 />
               </div>
@@ -185,6 +187,8 @@
                 class="websiteBtn"
                 target="_blank"
                 rel="noopener noreferrer"
+              aria-label="Visit the Community Science Museum project website"
+
                 >Community Science Museum website
                 <i class="bi bi-box-arrow-up-right"></i
               ></a>
@@ -197,11 +201,13 @@
               role="button"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Visit the RainyDays e-commerce project website"
+
             >
               <div class="projectImgContainer">
                 <img
                   src="public/projects/RainyDays.png"
-                  alt="Screenshot of my JavaScript 1 assignment about RainyDays"
+                  alt="RainyDays e-commerce website homepage screenshot"
                   class="projectScreenshot"
                 />
               </div>
@@ -213,6 +219,8 @@
                 class="websiteBtn"
                 target="_blank"
                 rel="noopener noreferrer"
+              aria-label="Visit the RainyDays e-commerce project website"
+
                 >RainyDays e-commerce website <i class="bi bi-box-arrow-up-right"></i
               ></a>
             </div>
@@ -224,11 +232,13 @@
               role="button"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Visit the HotView Labs project website"
+
             >
               <div class="projectImgContainer">
                 <img
                   src="public/projects/HotViewLabs.png"
-                  alt="Screenshot of my Semester assignment about HotView Labs"
+                  alt="HotView Labs website homepage screenshot"
                   class="projectScreenshot"
                 />
               </div>
@@ -240,7 +250,9 @@
                 class="websiteBtn"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Community Science Museum website 
+              aria-label="Visit the HotView Labs project website"
+
+                >HotView Labs website 
                 <i class="bi bi-box-arrow-up-right"></i
               ></a>
             </div>
@@ -256,9 +268,11 @@
           <div class="contactContent">
             <div class="linksContainer">
             <a href="https://www.linkedin.com/in/martine-reppesgård-karlsen-166471229" role="button" class="contactButton"  target="_blank"
-            rel="noopener noreferrer"><i class="bi bi-linkedin"></i>Connect with me on Linkedin</a>
+            rel="noopener noreferrer"    aria-label="Visit my Linkedin profile">
+            <i class="bi bi-linkedin"></i>Connect with me on Linkedin</a>
             <a href="https://github.com/martir2109" role="button" class="contactButton"  target="_blank"
-            rel="noopener noreferrer"><i class="bi bi-github"></i>Find me on GitHub</a>
+            rel="noopener noreferrer"    aria-label="Visit my GitHub profile">
+            <i class="bi bi-github"></i>Find me on GitHub</a>
             <a href="mailto:martinekar08@gmail.com" role="button" class="contactButton"><i class="bi bi-envelope-at-fill"></i>Send me an email</a>
           </div>
           </div>
