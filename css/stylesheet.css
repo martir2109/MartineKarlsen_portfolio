@@ -142,6 +142,17 @@ section {
   color: var(--grey);
 }
 
+.fadeIn {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fadeIn.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media screen and (max-width: 800px) {
   .projectHeader {
     margin-top: 150px;
