@@ -26,7 +26,7 @@ You can view the live project here: [martir2109.github.io/MartineKarlsen_portfol
 
 Here is a screenshot of the live website:
 
-![Screenshot of my Portfolio website](/public/portfolioPreview.png "Martine R Karlsen Portfolio Website")
+![Screenshot of my Portfolio website](/assets/portfolioPreview.png "Martine R Karlsen Portfolio Website")
 
 ## 🛠️ Technologies used
 
