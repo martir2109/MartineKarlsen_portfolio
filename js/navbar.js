@@ -1,3 +1,5 @@
+//I followed this Tutorial from w3schools, link: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+//I followed this Tutorial from w3schools, link:https://www.w3schools.com/howto/howto_css_menu_icon.asp
 function toggleNavbar() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
