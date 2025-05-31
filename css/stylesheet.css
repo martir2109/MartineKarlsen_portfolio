@@ -24,6 +24,9 @@ html {
 main:not(.scrollContainer) {
   min-height: 100vh;
   margin: 10px 3% 0 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
