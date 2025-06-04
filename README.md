@@ -1,4 +1,4 @@
-# Martine R Karlsen portfolio
+# Martine Karlsen portfolio
 
 Hello there! 👋🏼
 
