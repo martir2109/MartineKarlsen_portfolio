@@ -39,7 +39,7 @@ Here is a screenshot of the live website:
 
 📁 css/
 
-    ├── 📄 About.css
+    ├── 📄 about.css
 
     ├── 📄 contact.css
 
