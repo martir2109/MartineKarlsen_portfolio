@@ -20,12 +20,14 @@
 .projectDescriptionContainer {
   width: 100%;
   min-height: 150px;
+  display: grid;
+  gap: 10px;
 }
 
 .projectDescription {
   margin-top: 20px;
   color: var(--white);
-  min-height: 120px;
+  height: 150px;
 }
 
 .project {
@@ -94,10 +96,19 @@
   .project {
     width: 80%;
   }
+
+  .projectDescription {
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .projectContainer {
     grid-template-columns: 1fr;
+  }
+
+  .projectDescription {
+    height: fit-content;
+    margin-bottom: 20px;
   }
 }
