@@ -25,7 +25,7 @@
 .projectDescription {
   margin-top: 20px;
   color: var(--white);
-  height: fit-content;
+  min-height: 120px;
 }
 
 .project {
