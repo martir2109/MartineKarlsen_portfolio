@@ -1,24 +1,41 @@
 .projectContainer {
+  text-align: center;
   width: 100%;
-  gap: 50px;
   display: grid;
-  justify-content: center;
+  gap: 50px;
   grid-template-columns: repeat(3, 1fr);
-  flex-wrap: wrap;
-  justify-content: space-between;
   justify-items: center;
   margin-top: 100px;
   text-align: center;
+}
+
+.singleProject {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projectDescriptionContainer {
+  width: 100%;
+  min-height: 150px;
+}
+
+.projectDescription {
+  margin-top: 20px;
+  color: var(--white);
+  height: fit-content;
 }
 
 .project {
   width: 100%;
   height: fit-content;
   cursor: pointer;
-  display: block;
   justify-content: center;
   border: 1px solid var(--white);
   border-radius: 10px;
+  background-color: var(--white);
 }
 
 .project:hover {
@@ -30,6 +47,7 @@
 .projectImgContainer {
   width: 100%;
   height: auto;
+  border-bottom: 1px solid var(--black);
 }
 
 .projectScreenshot {
