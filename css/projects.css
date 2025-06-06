@@ -35,7 +35,7 @@
   height: fit-content;
   cursor: pointer;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: var(--primary);
   padding: 10px;
 }
